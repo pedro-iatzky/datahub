@@ -29,7 +29,7 @@ base_requirements = {
     "apache-airflow >= 1.10.2",
     "acryl-datahub[airflow] >= 0.8.36",
     # Pinned dependencies to make dependency resolution faster.
-    "sqlalchemy==1.3.24",
+    "sqlalchemy>=1.3.24",
 }
 
 
